@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/comment_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment_user_name"
+        android:layout_marginBottom="6dp"
+        android:paddingEnd="4dp"
+        android:paddingStart="4dp"
+        android:paddingTop="6dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/CommentCatregory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_comment"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/category_name"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/CommentProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_comment"
+        android:layout_toEndOf="@id/CommentCatregory"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/AcceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CommentCatregory"
+        android:background="#ff0000"
+        android:text="@string/accept"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/RejectComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CommentCatregory"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/AcceptButton"
+        android:background="#ff0000"
+        android:text="@string/reject"
+        android:visibility="gone" />
+</RelativeLayout>

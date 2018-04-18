@@ -1,0 +1,1 @@
+A Shopping app that shows a user a products and a review about it  the app has two flavors user and admin

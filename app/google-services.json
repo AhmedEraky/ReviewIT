@@ -1,0 +1,167 @@
+{
+  "project_info": {
+    "project_number": "349711237061",
+    "firebase_url": "https://capstone-f9f4c.firebaseio.com",
+    "project_id": "capstone-f9f4c",
+    "storage_bucket": "capstone-f9f4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349711237061:android:f776a941bd3b132f",
+        "android_client_info": {
+          "package_name": "com.example.eraky.capstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349711237061-rj71vsdi93hnmnaioo4mib0r4bmappj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eraky.capstone",
+            "certificate_hash": "87f236e9f43ce9046dada07e69aaa085dedcaefc"
+          }
+        },
+        {
+          "client_id": "349711237061-14h3ch8tlvsf3tkp87vqio5qhngof45c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eraky.capstone",
+            "certificate_hash": "5d12c57d921f73cf1652bff0fd6ffa47cd09ff63"
+          }
+        },
+        {
+          "client_id": "349711237061-aksni5tkhkg77nla5d99rdb081v7i5ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlNhiXP5LuKne2urxv046RJhLpZbsL-a0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349711237061-aksni5tkhkg77nla5d99rdb081v7i5ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349711237061:android:c591b32da4b54e3e",
+        "android_client_info": {
+          "package_name": "com.example.eraky.reviewit.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349711237061-k13if2n9bpd669mrrkuufrjrgjcj2sk6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eraky.reviewit.user",
+            "certificate_hash": "5d12c57d921f73cf1652bff0fd6ffa47cd09ff63"
+          }
+        },
+        {
+          "client_id": "349711237061-lodg5tpau5d87r8ii4bofeq7bhesg5oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eraky.reviewit.user",
+            "certificate_hash": "87f236e9f43ce9046dada07e69aaa085dedcaefc"
+          }
+        },
+        {
+          "client_id": "349711237061-aksni5tkhkg77nla5d99rdb081v7i5ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlNhiXP5LuKne2urxv046RJhLpZbsL-a0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349711237061-aksni5tkhkg77nla5d99rdb081v7i5ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349711237061:android:2ea5edc65cb06c16",
+        "android_client_info": {
+          "package_name": "com.example.eraky.reviewit.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349711237061-b8k8r60fovaadd1vvbo7rmeuqig9hram.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eraky.reviewit.admin",
+            "certificate_hash": "5d12c57d921f73cf1652bff0fd6ffa47cd09ff63"
+          }
+        },
+        {
+          "client_id": "349711237061-t0nl6bc1enqrh84lg16regnt9v19o24h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eraky.reviewit.admin",
+            "certificate_hash": "87f236e9f43ce9046dada07e69aaa085dedcaefc"
+          }
+        },
+        {
+          "client_id": "349711237061-aksni5tkhkg77nla5d99rdb081v7i5ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlNhiXP5LuKne2urxv046RJhLpZbsL-a0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349711237061-aksni5tkhkg77nla5d99rdb081v7i5ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

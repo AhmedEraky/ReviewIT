@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name="com.example.eraky.reviewit.admin.AddNewProductActivity" />
+        <activity android:name="com.example.eraky.reviewit.admin.AddNewCategoryActivity" />
+        <activity android:name="com.example.eraky.reviewit.admin.CategoryActivity">
+
+        </activity>
+        <activity android:name="com.example.eraky.reviewit.admin.ProductActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.eraky.reviewit.admin.CategoryActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.example.eraky.reviewit.admin.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.eraky.reviewit.admin.UserHome"></activity>
+    </application>
+</manifest>

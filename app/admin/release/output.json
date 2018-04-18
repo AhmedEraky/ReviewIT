@@ -1,0 +1,18 @@
+[
+  {
+    "outputType": {
+      "type": "APK"
+    },
+    "apkInfo": {
+      "type": "MAIN",
+      "splits": [],
+      "versionCode": 1
+    },
+    "path": "app-admin-release.apk",
+    "properties": {
+      "packageId": "com.example.eraky.reviewit.admin",
+      "split": "",
+      "minSdkVersion": "22"
+    }
+  }
+]
